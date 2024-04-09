@@ -72,17 +72,130 @@
     <section class="inner-page">
       <div class="container">
         <H2><a href="https://cklouislok.github.io/geom99web7/test/sdk_v2">Link to SDK solution</a></H2>
-		<p>
-          You can write comment here! <br>
-		  Brainstorm topic: <br>
-		  1. Why do you choose this application as a solution of the problem?<br>
-		  2. How do you utilize this application to solve the problem?<br>
-		  3. Do you encounter any difficulties?<br>
-		  4. Screen shot / gif of application<br>
-		  5. What is the limitation? <br>
-		  6. Any suggestion to improve your solution?<br>
-		  7. other
+        <h3>
+          Abstract
+        </h3>
+        <p>
+          Using ArcGIS Maps SDK for JavaScript 4.29 and adapting their sample codes, created a web
+          application for exploring Toronto Neighborhood Crime Statistics.
         </p>
+        <h3>
+          Main function 1: Query statistics by geometry
+        </h3>
+        <p>
+          The neighborhood crime statistics are queried by year and crime type among neighborhoods intersecting a buffer, and displayed in a bar chart. 
+          The user can drag the center point of the buffer or resize the buffer by dragging the edge point.
+        </p>
+        <img src="assets/gif/sdk_showcase.gif" alt="SDKfunction1">
+          <h3>
+          Main function 2: Option to define custom class breaks for each crime type
+          </h3>
+          <p>
+            By reading the same neighborhood crime statistics, a class breaks renderer is generated 
+            using the Feature Layer and the fields of crime types.
+          </p>
+        <img src="assets/gif/sdk_showcase2.gif" alt="SDKfunction2">
+        <h3>
+          Other functions
+          </h3>
+          <p>
+            Expandable widgets for the functions, and additional widgets e.g. Homescreen button and Fullscreen button
+          </p>
+        
+
+        <h3>
+          Tips and tricks for configuring a solution involving SDK
+        </h3>
+        <h4>
+          Understanding codes:
+        </h4>
+        <ul>
+          <li> You do not have to understand every single part of the sample code to make things work; if the sample or the desired result is simple, it can be as easy as changing the data source from an example</li>
+          <li> When trying to understand how a code sample works, search where the function or variable appears and works in the code</li>
+        </ul>
+        <h4>
+          Working with codes:
+        </h4>
+        <ul>
+          <li> Sometimes it is better to only make one change at a time to easily identify the issue</li>
+          <li> Always be wary of the indentation and sequence of the codes, especially when you combine code examples/handle huge blocks of codes </li>
+          <li> Considering time constraints, when adapting sample codes, try to stick to the sample or make as few necessary changes as possible to minimize chances of breaking things</li>
+        </ul>
+
+        <h3>
+          Concepts Learnt
+        </h3>
+        <ul>
+          <li> The major processes in getting SDK to work share similarity with the ETL framework:
+            to extract the desired data from the source, which is the neighborhood crime statistics 
+            in our case (using ArcGIS REST Endpoint URL); to transform the data into a format that 
+            can be loaded for display, which is summing up the crime statistics by type and year; lastly
+            to load the data to the display, which is the bar chart structure in our case. 
+          </li>
+          <li>
+            Skills in working with JavaScript
+          </li>
+        </ul>
+        
+        <h3>
+          Future Possibilities to Improve
+        </h3>
+        <ul>
+          <li> 
+            Add in more data layers, ideally show everything in a single map
+          </li>
+        </ul>
+
+        <h3>
+          Technical challenges
+        </h3>
+        <ul>
+          <li> 
+            Targeting/modifying the right parts of the code to fix things or make things work
+          </li>
+          <li> 
+            A fix for a certain issue may lead to another issue
+          </li>
+        </ul>
+
+        <h3>
+          Mistakes Made
+        </h3>
+        <ul>
+          <li> 
+            Not targeting the right code
+          </li>
+          <li> 
+            Being too aggressive: making too many changes at once/trying to add significant
+            amount of codes for adding a certain feature; that bounds to fail (unless you
+            are really good with coding)
+          </li>
+        </ul>
+
+        <h3>
+          Project Missteps
+        </h3>
+        <p>
+          A lot of them. Some examples below.
+        </p>
+        <h4>
+          Not recognizing the loadable format of the chart output
+        </h4> 
+        <img src="assets/img/sdk_1.png" alt="SDK Misstep 1">
+        <h4>
+          Improper organization of codes leading to headaches
+        </h4>
+        <img src="assets/img/sdk_2.png" alt="SDK Misstep 2">
+        <img src="assets/img/sdk_3.png" alt="SDK Misstep 3">
+        <img src="assets/img/sdk_4.png" alt="SDK Misstep 4">
+        <h4>
+          Trying to use alternative chart formats but not working
+        </h4>
+        <img src="assets/img/sdk_5.png" alt="SDK Misstep 5">
+        <h4>
+          Trying to show too much data at once
+        </h4>
+        <img src="assets/img/sdk_6.png" alt="SDK Misstep 6">
 		
       </div>
     </section>
