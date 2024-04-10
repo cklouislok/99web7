@@ -132,45 +132,68 @@
 	Several bugs are encountered in some of the widgets in the web experience. 
 	      
         <h4>Near Me widget not working as expected when features are out of reach</h4>
-	<p>
-		
-	</p>
-	<img src="assets/gif/" alt="3D Explorer">
+	<p>When the point location with the defined search radius does not intersect with the features within a map layer, all feature within
+	the layer are displayed on map, implying that it fails to find the nearby or closest features.</p>
+	<img src="assets/gif/" alt="Near Me Fails">
 
         <h4>Fly Controller widget</h4>
-
+	<p>Users cannot control the zoom level when flying along a path, where if attemping to zoom in/out during flight will terminate the 
+	flight.</p>
+	<img src="assets/gif/" alt="Fly Controller">
+	      
+	<p>Flights do not stop automatically when it finish a path.</p>
+	<img src="assets/gif/" alt="Fly Controller does not stop after the end of path">
+	      
+	<p>Cannot be triggered by location search, and the users have to manually select the point feature to fly around or the line feature 
+	to fly along.</p>
+	<img src="assets/gif/" alt="Fly Controller can only be activated manually">
+	      
         <h3>What we like</h3>
 
-        <h4>Near-codeless web development</h4>
-        <p>Very intuitive to design a web experience. Does not require any programming knowledge or skill. </p>
-
-        <h4>Enrich web experience with Embed widget</h4>
-        <p></p>
+        <h4>Near-codeless web development with possibility for additional custom functionalitiy by embedding URL or code</h4>
+        <p>Very intuitive to design a web experience. Simply drag and drop widgets to build the functionality, and triggers can be configured 
+	in the action tab in widget settings. Also, it does not require any programming knowledge at all.</p>
 
         <h3>What we think can be improved</h3>
 
         <h4>Configurable widgets, but with very few options</h4>
-        <p>Particularly in widget and style</p>
+        <p>Some widgets cannot be triggered by other widgets. For instance, the Fly Controller as discussed in previous sections. </p>
+	<p>Additionally, the options for widget general settings and font styles are very limited. </p>
 
         <h4>Capable of performing spatial analysis, only if we pay</h4>
-        <p></p>
+        <p>There are Analysis and Business Analyst widgets which can perform spatial analyses and generate infographic. However, 
+	they consume considerable amounts of credits.</p>
 
         <h4>The lone ranger</h4>
-        <p>Not open for collaboration</p>
+        <p>A web experience can be shared with others to view and use, but only the owner can edit the web experience. 
+	Collaboration is not an option with AGOL. .</p>
+	<img src="assets/img/eb_sharing.png" alt="The non-owner user can only view the web experience">
 
         <h4>Codeless = Difficult to debug</h4>
-        <p>Luckily did not encounter many bugs</p>
+        <p>In a no-code environment, web development is achieved by a graphical interface with drag-and-drop elements. This surely 
+	lowers the threshold of application development. However, this also implies that debugging may not be achieved in the traditional 
+	way. The following example demonstrates that what we think the results will look like based on the design stage are not 
+	always the actual results, even if it is reckoned that everything is properly set. It could be time-consuming to fix these
+	tiny bugs.</p>
+
+	<p>2D Explorer and Crime Explorer in design view</p>
+	<img src="assets/img/eb_design_2dex.png" alt="2D Explorer in design view">
+	<img src="assets/img/eb_design_crimeex.png" alt="Crime Explorer in design view">
+
+	<p>2D Explorer and Crime Explorer in published version</p>
+	<img src="assets/img/ed_result_2dex.png" alt="2D Explorer in published version">
+	<img src="assets/img/ed_result_crimeex.png" alt="Crime Explorer in published version">
 
         <h3>Missteps made</h3>
         <h4>Reliance on online data</h4>
+	<p>The data used </p>
+	      
         <h4>Triggering more than one Near Me widget at the same time</h4>
-        <h4>Query</h4>
+	<p></p>
 
         <h3>Tips and Tricks</h3>
 
-        <h4>Perform symbolization and other map settings in ArcGIS Pro or AGOL before importing into Experience Builder</h4>
-
-        
+        <h4>Perform symbolization and other map settings in ArcGIS Pro or AGOL before importing into Experience Builder</h4>     
 
         <h4>Hardware for 3D</h4>
 
@@ -179,12 +202,12 @@
 		<p>
       You can write comment here! <br>
 		  Brainstorm topic: <br>
-		  1. Why do you choose this application as a solution of the problem?<br>
-		  2. How do you utilize this application to solve the problem?<br>
-		  3. Do you encounter any difficulties?<br>
-		  4. Screen shot / gif of application<br>
-		  5. What is the limitation? <br>
-		  6. Any suggestion to improve your solution?<br>
+		  -1. Why do you choose this application as a solution of the problem?<br>-
+		  -2. How do you utilize this application to solve the problem?<br>-
+		  -3. Do you encounter any difficulties?<br>-
+		  -4. Screen shot / gif of application<br>-
+		  -5. What is the limitation? <br>-
+		  -6. Any suggestion to improve your solution?<br>-
 		  7. other
         </p>
 		
