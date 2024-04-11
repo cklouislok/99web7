@@ -16,11 +16,11 @@ a:hover {
   text-decoration: none;
 }
 
-h1{font-size: 32px;
+h1{font-size: 40px;
 }
-h2{font-size: 24px;
+h2{font-size: 36px;
 }
-h3{font-size: 20px;
+h3{font-size: 24px;
 }
 h4,
 h5,
@@ -28,7 +28,7 @@ h6 {
   font-family: "Roboto", sans-serif;
 }
 
-p {font-size: 18px;
+p {font-size: 16px;
 }
 
 td {
