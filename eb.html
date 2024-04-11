@@ -72,8 +72,9 @@
       <div class="container">
         <h2><a href="#">Link to Experience Builder solution</a></h2>
 
-        <h3>Interactive and Intuitive Visualization of Neighborhood Point, Line and Polygon Data</h3>
         <img src="assets/img/eb_1_landingpage.png" alt="Experience Builder Landing Page">
+
+        <h3>Interactive and Intuitive Visualization of Neighborhood Point, Line and Polygon Data</h3>
         <p>ArcGIS Experience Builder provides a user-friendly and interactive solution to strtegically organizing multiple 
           thematic maps into a single, easily accessible hub. The constantly evolving and wide variaty of widgets available 
           in Experience Builder empowers the integration and visualization of point, line, polygon, and 3D multipatch data 
@@ -81,142 +82,219 @@
           2D maps and closer-to-reality 3D scenes.
         </p>
 
-        <h3>Featured function 1: Near Me widget - Locating nearby features and the closest feature of a location</h3>
+        <h3>Featured function 1: Near Me widget - Locating nearby features and the closest feature from a location</h3>
         <p>The Near Me widget is the ideal solution to the shortcoming of ordinary online map application - if we want to 
         search for schools in an area, we type in school in the search bar, and the application will display the search results 
-        within your current map extent. However, this is not good enough for someone who wish to explore the surround neighborhood 
-        when they are doing house-hunting.</p>
+        within your current map extent. However, this is not convenient enough for someone who wish to explore the surrounding 
+        neighborhood when they are doing house-hunting.</p>
 
+        <p>Two tools, Around Me and Closest to Me, are configured in the 2D Explorer.</p>
         <p>By setting the analysis type as proximity, the Near Me widget finds and analyzes all public amenities within a specified 
-        distance of a defind location. In comparison, by setting the analysis type as closest feature, the Near Me widget finds 
-        and analyzes the closest public amenities within a specified distance of a defind location. This leads to the development 
-        of the two tools in the 2D Exploerer - Around Me and Closest to Me respecively.</p>
-
-        <h4>Demonstration of Around Me</h4>
-	<img src="assets/gif" alt="2D Explorer - Around Me">
-	      
-        <h4>Demonstration of Closest to Me</h4>
-	<img src="assets/gif" alt="2D Explorer - Closest to Me">
+          distance of a defind location.</p>
+          <img src="assets/gif/eb_aroundme.gif" alt="2D Explorer - Around Me">
+        <p>By setting the analysis type as closest feature, the Near Me widget finds and analyzes the closest public amenities within 
+          a specified distance of a defind location.          </p>
+          <img src="assets/gif/eb_closesttome.gif" alt="2D Explorer - Closest to Me">
 
         <h3>Featured function 2: Synchronized 2D & 3D Visualization + 3D Analysis</h3>
-	<p>In the 3D Explorer application, the 2D map and the 3D map operate in paralle - when the users zoom in, pan, or search for 
-	locations in one, the other map is triggered and zoom to the same map extent. This provides users with a greater flexibility 
-	in exploring both the planar position as well as the simulated stereoscopic environment of the locations. This could be a 
-	particularly useful function to explore features that is only available in an three dimensional environment, such as building 
-	height, building density, skyline, etc.</p>
-	      
-	<img src="assets/gif/" alt="3D Explorer">
+        <p>In the 3D Explorer application, the 2D map and the 3D map operate in parallel - when the users zoom in, pan, or search for 
+        locations in one, the other map is triggered and zoom to the same map extent. This provides users with a greater flexibility 
+        in exploring both the planar position as well as the simulated stereoscopic environment of the location. This is useful to 
+        explore features that is only available in an three dimensional environment, such as building height, building density, 
+        skyline, etc.</p>
+	        <img src="assets/gif/eb_3dexplorer.gif" alt="3D Explorer">
 
-	<p>The daylight and shadow cast effects in the 3D Toolbox are valuable tools to analyze the sunshine conditions in a location at 
-	different time in a day, in addition to on different day within a year. The line of sight tool also enables the exploration of 
-	unobstructed views from a location. These collectively allow users to look for a location with a desirable amount and angle of 
-	sunlight, and views.</p>
+        <p>The daylight and shadow cast effects in the 3D Toolbox are valuable tools to analyze the sunshine conditions in a location at 
+        different time in a day, in addition to on different day within a year. The line of sight tool also enables the exploration of 
+        unobstructed views from a location. These collectively allow users to look for a location with a desirable amount and angle of 
+        sunlight, and views.</p>
+          <img src="assets/gif/eb_3dexplorer_3dtool.gif" alt="3D Explorer with cast a shadow and daylight tools">
 
-	<p>The fly controller provides an immersive experience to visualize the 3D surrounding environment around a point location or along
-	a path.</p>
+        <p>The fly controller provides an immersive experience to visualize the 3D surrounding environment around a point location 
+          or along a path.</p>
+          <img src="assets/gif/eb_flycontroller.gif" alt="Demo of Fly Controller">
 
-	<h3>Featured function 3: Embedding external resources</h3>
-	<p>The Embed widget open the door for additional custom functinalities via a URL or code. The highly configurable structure of 
-	Experience Builder on the one hand facilitate a swift web development with customizable tools, but on the other hand limit the 
-	functionalities and possibilities of ordinary web development, such as via ArcGIS Maps SDK for JavaScript. With the Embed widget, 
-	developers can develope web pages and other appplications on other platforms, and embed the relevant URL or simple code into the 
-	web experience. In traditional web development environment, the embedment is achieved by iframe. In Experience Builder, it only costs 
-	several clicks.</p>
 
-	<p>In the final product, the content in the Crime Explorer and Statistics pages are developed using ArcGIS Maps SDK for JavaScript and 
-	ArcGIS Dashboard respectively, and they are embedded into the web experience.</p>
+        <h3>Featured function 3: Embedding external resources</h3>
+        <p>The Embed widget opens the door for additional custom functinalities via a URL or code. The highly configurable structure of 
+        Experience Builder on the one hand facilitates a swift web development with customizable tools, but on the other hand limits the 
+        functionalities and possibilities of ordinary application development through coding. With the Embed widget, developers can 
+        develop web pages and other appplications on other platforms, and embed the relevant URL or simple code into the web experience. 
+        In traditional web development environment, the embedment is achieved by iframe. In Experience Builder, it only costs 
+        several clicks.</p>
+
+        <p>In the final product, the content in the Crime Explorer and Statistics pages are developed using ArcGIS Maps SDK for 
+          JavaScript and ArcGIS Dashboard respectively, and they are embedded into the web experience.</p>
+              
+        <img src="assets/img/eb_embedwidget.png" alt="Using Embed Widget to include Maps SKD for JavaScript">
 	      
-	<img src="assets/img/" alt="Embed Widget">
-	      
-        <h3>Bugs? Purposeful design?</h3>
-	Several bugs are encountered in some of the widgets in the web experience. 
-	      
+        <h3>Bugs? Purposeful design?</h3>      
         <h4>Near Me widget not working as expected when features are out of reach</h4>
-	<p>When the point location with the defined search radius does not intersect with the features within a map layer, all feature within
-	the layer are displayed on map, implying that it fails to find the nearby or closest features.</p>
-	<img src="assets/gif/" alt="Near Me Fails">
+        <ul>
+          <li>
+            When the point location with the defined search radius does not intersect with the features, all features are displayed on 
+            map, implying that it fails to find the nearby or closest features, even though the result says "No results found".
+          </li>
+          <li>
+            It is expected that no features will be shown on map.
+          </li>
+        </ul>
+        <img src="assets/gif/eb_bug_nearme.gif" alt="Near Me bug">
 
         <h4>Fly Controller widget</h4>
-	<p>Users cannot control the zoom level when flying along a path, where if attemping to zoom in/out during flight will terminate the 
-	flight.</p>
-	<img src="assets/gif/" alt="Fly Controller">
-	      
-	<p>Flights do not stop automatically when it finish a path.</p>
-	<img src="assets/gif/" alt="Fly Controller does not stop after the end of path">
-	      
-	<p>Cannot be triggered by location search, and the users have to manually select the point feature to fly around or the line feature 
-	to fly along.</p>
-	<img src="assets/gif/" alt="Fly Controller can only be activated manually">
+        <ul>
+          <li>
+            Cannot be triggered by location search, and the users have to manually select the point feature to fly around or the 
+            line feature to fly along.
+          </li>
+          <li>
+            Flights do not stop automatically when it finish a path.
+          </li>
+          <li>
+            Cannot control the zoom level when flying along a path. Attemping to zoom in/out during flight will terminate the flight.
+          </li>
+          <img src="assets/gif/eb_bug_flycontroller1.gif" alt="Fly Controller stops when zooming out">
+        </ul>
 	      
         <h3>What we like</h3>
-
-        <h4>Near-codeless web development with possibility for additional custom functionalitiy by embedding URL or code</h4>
-        <p>Very intuitive to design a web experience. Simply drag and drop widgets to build the functionality, and triggers can be configured 
-	in the action tab in widget settings. Also, it does not require any programming knowledge at all.</p>
-
+        <h4>Near-codeless web development with possibility for additional custom functionalitiy</h4>
+        <ul>
+          <li>
+            Very intuitive graphic interface to design a web experience achieved by drag-and-drop elements
+          </li>
+          <li>
+            Actions can be set on a widget to trigger another widget.
+          </li>
+          <li>
+            Does not require any programming knowledge at all.
+          </li>
+          <li>
+            Embed widget for additional custom functionalitiy by embedding URL or code.
+          </li>
+        </ul>
+        
         <h3>What we think can be improved</h3>
-
         <h4>Configurable widgets, but with very few options</h4>
-        <p>Some widgets cannot be triggered by other widgets. For instance, the Fly Controller as discussed in previous sections. </p>
-	<p>Additionally, the options for widget general settings and font styles are very limited. </p>
+        <ul>
+          <li>
+            Some widgets cannot be triggered by other widgets. For instance, the Fly Controller.
+          </li>
+          <li>
+            Options for widget general settings and font styles are very limited.
+          </li>
+        </ul>
 
         <h4>Capable of performing spatial analysis, only if we pay</h4>
-        <p>There are Analysis and Business Analyst widgets which can perform spatial analyses and generate infographic. However, 
-	they consume considerable amounts of credits.</p>
+        <ul>
+          <li>
+            Analysis and Business Analyst widgets enable spatial analyses and generate infographics.
+          </li>
+          <li>
+            But consume credits.
+          </li>
+        </ul>
 
         <h4>The lone ranger</h4>
-        <p>A web experience can be shared with others to view and use, but only the owner can edit the web experience. 
-	Collaboration is not an option with AGOL. .</p>
-	<img src="assets/img/eb_sharing.png" alt="The non-owner user can only view the web experience">
+        <ul>
+          <li>
+            Collaboration is not an option, only the owner can edit the web experience.
+          </li>
+          <li>
+            The non-owner users can only view a shared web experience. 
+          </li>
+        </ul>
+	      <img src="assets/img/eb_sharing.png" alt="The non-owner users can only view the web experience">
 
         <h4>Codeless = Difficult to debug</h4>
-        <p>In a no-code environment, web development is achieved by a graphical interface with drag-and-drop elements. This surely 
-	lowers the threshold of application development. However, this also implies that debugging may not be achieved in the traditional 
-	way. The following example demonstrates that what we think the results will look like based on the design stage are not 
-	always the actual results, even if it is reckoned that everything is properly set. It could be time-consuming to fix these
-	tiny bugs.</p>
+        <ul>
+          <li>
+            The graphical interface with drag-and-drop elements lowers the threshold of application and web development.
+          </li>
+          <li>
+            But debugging may not be achieve with the traditional way - by looking at the source codes.
+          </li>
+          <li>
+            What we think the results will look like based on the design view are not always the actual results.
+          </li>
+          <li>
+            Could be time-consuming to fix these tiny bugs.
+          </li>
+        </ul>
+        
 
-	<p>2D Explorer and Crime Explorer in design view</p>
-	<img src="assets/img/eb_design_2dex.png" alt="2D Explorer in design view">
-	<img src="assets/img/eb_design_crimeex.png" alt="Crime Explorer in design view">
+        <p>2D Explorer and Crime Explorer in design view</p>
+        <img src="assets/img/eb_design_2dex.png" alt="2D Explorer in design view">
+        <img src="assets/img/eb_design_crimeex.png" alt="Crime Explorer in design view">
 
-	<p>2D Explorer and Crime Explorer in published version</p>
-	<img src="assets/img/ed_result_2dex.png" alt="2D Explorer in published version">
-	<img src="assets/img/ed_result_crimeex.png" alt="Crime Explorer in published version">
+        <p>2D Explorer and Crime Explorer in published version - unexpected change in the top, green bar</p>
+        <img src="assets/img/eb_result_2dex.png" alt="2D Explorer in published version">
+        <img src="assets/img/eb_result_crimeex.png" alt="Crime Explorer in published version">
 
         <h3>Missteps made</h3>
-        <h4>Reliance on online data</h4>
-	<p>The data used </p>
+        <h4>Reliance on dynamic online data</h4>
+        <ul>
+          <li>
+            All data used are solely obtained from the ArcGIS REST Services Directories of the City of Toronto and the Toronto Police 
+            Service, which are constantly updated.
+          </li>
+          <li>
+            Access to the hosted feature layers on these servers is not stable and layer may become inaccessible from time to time.
+          </li>
+          <li>
+            Solution: duplicate all feature layers in AGOL of our organization for stability, at the expense of recurrent updates from 
+            the data owners
+          </li>
+        </ul>
+        <img src="assets/img/eb_misstep1.png" alt="Disconnection of feature layer from original server">
+
 	      
-        <h4>Triggering more than one Near Me widget at the same time</h4>
-	<p></p>
+        <h4>Triggering more than one Near Me widget concurrently</h4>
+        <ul>
+          <li>
+            Displaying more than one Near Me widget results would reduce the readability of the map.
+          </li>
+        </ul>
+        <img src="assets/img/eb_misstep2.png" alt="Display more than one Near Me results at the same time">
 
         <h3>Tips and Tricks</h3>
+        <h4>Perform symbolization and other cartographic settings in AGOL</h4>
+        <ul>
+          <li> 
+            Cartographic settings inclusive of layer symbology settings are minimal in Experience Builder.
+          </li>
+          <li>
+            The best way is to import all data into a web map and scene on AGOL, and then import the symbolized web maps and 
+            scenes into the web experience using the Map widget.
+          </li>
+        </ul>
 
-        <h4>Perform symbolization and other map settings in ArcGIS Pro or AGOL before importing into Experience Builder</h4>     
-
-        <h4>Hardware for 3D</h4>
-
-        <h4>Read documentation and tutorials to know the widgets</h4>
+        <h4>3D rendering</h4>
+        <ul>
+          <li> 
+            Computers/Devices managed by an organization may have some functions regarding graphic display and hardware acceleration
+            disabled by the IT department. When attempting to load the 3D maps with Google Chrome and Microsoft Edge, the browsers would 
+            not render the 3D maps because they follow the settings of the computers where 3D rendering is disabled.
+          </li>
+          <li>
+            Use Mozilla Firefox. It uses internal settings rather than the system settings of the computers, 
+            and hence 3D rendering is not disabled.
+          </li>
+        </ul>
         
-		<p>
-      You can write comment here! <br>
-		  Brainstorm topic: <br>
-		  -1. Why do you choose this application as a solution of the problem?<br>-
-		  -2. How do you utilize this application to solve the problem?<br>-
-		  -3. Do you encounter any difficulties?<br>-
-		  -4. Screen shot / gif of application<br>-
-		  -5. What is the limitation? <br>-
-		  -6. Any suggestion to improve your solution?<br>-
-		  7. other
-        </p>
-		
+        <h4>Read documentation and tutorials to know the widgets</h4>
+        <ul>
+          <li> 
+            <a href="https://www.esri.com/en-us/arcgis/products/arcgis-experience-builder/resources">Official resources and documentation</a> 
+            provide detailed information and tutorials on how to build a web experience and how to configure the widgets.
+          </li>
+          <li>
+            Also a <a href="https://www.esri.com/en-us/arcgis/products/arcgis-experience-builder/resources">dedicated page</a> 
+            explaining what actions can be added to widgets, and what widgets can be triggered be other widgets. Understanding the widget 
+            usage and limitations before building an experience could save you from the frustration at not finding the buttom to 
+            connect a widget to another.
+          </li>
+        </ul>
       </div>
     </section>
-
-
-
-
   </main><!-- End #main -->
-
 </html>
