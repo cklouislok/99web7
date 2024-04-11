@@ -518,10 +518,10 @@ img {
 --------------------------------------------------------------*/
 section {
   padding-top: 50px;
-  padding-right: 300px;
+  padding-right: 180px;
   padding-bottom: 20
     px;
-  padding-left: 300px;
+  padding-left: 180px;
 }
 
 .section-bg {
@@ -770,9 +770,9 @@ section {
 --------------------------------------------------------------*/
 .breadcrumbs {
   padding-top: 50px;
-  padding-right: 300px;
+  padding-right: 180px;
   padding-bottom: 50px;
-  padding-left: 300px;
+  padding-left: 180px;
   background: #f6f6f6;
   min-height: 40px;
   margin-top: 80px;
