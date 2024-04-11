@@ -70,18 +70,57 @@
     <section class="inner-page">
       <div class="container">
         <H2><a href="https://fleming.maps.arcgis.com/apps/dashboards/8e1bdebb10544783939fafad6fe6ccdb">Link to Dashboard solution</a></H2>
-		<p>
-          You can write comment here! <br>
-		  Brainstorm topic: <br>
-		  1. Why do you choose this application as a solution of the problem?<br>
-		  2. How do you utilize this application to solve the problem?<br>
-		  3. Do you encounter any difficulties?<br>
-		  4. Screen shot / gif of application<br>
-		  5. What is the limitation? <br>
-		  6. Any suggestion to improve your solution?<br>
-		  7. other
+	<h3>
+          Abstract
+        </h3>
+        <p>
+          Using ArcGIS Dashboard for exploring Toronto Neighborhood data, public amenities, and Crime Statistics.
         </p>
-		
+        <h3>
+          Main function 1: Statistics view by filtering neighborhood
+        </h3>
+	<p>
+		When the neighborhood is selected or filtered at the list of the neighborhood, the neighborhood boundary is popped  
+		(in pink color) in the 2d layer and the scene layer is centered. The crime statistics table at the right corner displays 
+		all the crime data of that neighborhood and the count of amenities (park, hospital, school, and supermarkets) are displayed 
+		aesthetically at the right.
+	</p>
+	<p>
+		Initially, the count of the amenities and crime data are displayed for the whole of Toronto.
+	</p>
+	<h3>
+          Main function 2: Displaying the data in a 2d web layer and 3d scene at once
+        </h3>
+	<p>
+		The 2d layer and scene layer are linked. If we pan around or zoom the 2d layer the connectivity and the zooming functions can be seen 
+		in the scene layer as well. All the crime data are linked with the 2d layer. And the 2d layer is linked with the 3d layer.
+	</p>
+	
+	<h3>
+		Tips and Tricks to Work on Dashboard
+	</h3>
+	<ul>
+		<li>Visit the ArcGIS Dashboard official link and feel free to go through the official tutorials 
+			https://www.esri.com/en-us/arcgis/products/arcgis-dashboards/resources </li>
+		<li>Watch the ESRI presentation https://www.youtube.com/watch?v=zrxYWzSvJ6E </li>
+	</ul>
+	<h3>
+		Skill Learnt
+	</h3>
+	<ul>
+		<li>Create a Scene layer and add the data (especially the Rest link to the Scene layer. Work with the visibility setting in the scene layer so that 
+			displaying can be done easily. </li>
+		<li>Connect the Rest link to the scene layer and Dashboard, connect the scene layer and ArcGIS online link to the Dashboard, and Dashboard to Experience Builder. </li>
+	</ul>
+	<h3>
+		Future Possibility and things to improve
+	</h3>
+	<ul>
+		<li>The neighborhood boundary highlight that is pop-up just for a second in our dashboard can be made permanent which we need to figure out and improve.</li>
+		<li>Add more charts and graphs to display the crime statistics easily</li>
+		<li>Figure out the way to link all the indicators to the scene layer and link them to the table and charts</li>
+	</ul>
+	
       </div>
     </section>
 
