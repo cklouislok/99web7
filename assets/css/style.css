@@ -25,6 +25,10 @@ h6 {
   font-family: "Roboto", sans-serif;
 }
 
+td {
+  vertical-align: top;
+}
+
 img {
   max-width: 50%;
   height: auto;
